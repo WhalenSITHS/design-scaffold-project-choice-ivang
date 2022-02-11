@@ -1,0 +1,2 @@
+let domselector = {};
+export { domselector };
