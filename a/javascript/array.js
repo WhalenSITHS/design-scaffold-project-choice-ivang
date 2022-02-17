@@ -1,3 +1,0 @@
-let array = [];
-
-export { array };
