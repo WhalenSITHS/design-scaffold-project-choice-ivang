@@ -1,0 +1,15 @@
+html, body,
+*{
+    box-sizing: border-box;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: blue;   
+}
+
+.header {
+
+}
