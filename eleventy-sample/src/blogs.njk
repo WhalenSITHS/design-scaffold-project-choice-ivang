@@ -4,25 +4,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Articles</title>
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="../styles/blogs.css" />
   </head>
   <body>
-    {% include 'nav.njk' %}
-    <section class="secion-container">
-      <ul class="articles">
-        {%- for post in collections.post -%}
-        <article class="article">
-          <div class="article-text">
-            <h3 class="article-title">{{ post.data.title }}</h3>
-            <h4 class="article-aurthor">
-              By {{ post.data.author }} on {{ post.data.date | postDate }}
-            </h4>
-            <a class="article-link" href="{{ post.url }}">Contine Reading</a>
-            <img src="{{ post.data.image }}" alt="" class="img-preview" />
-          </div>
-        </article>
-        {%- endfor -%}
-      </ul>
+    <section class="container">
+      <div class="nav nav-container">{% include 'nav.njk' %}</div>
+      <div class="collections">{%- for post in collections.post -%}</div>
+      <article class="article">
+        <div class="article-text">
+          <h3 class="article-title">{{ post.data.title }}</h3>
+          <h4 class="article-aurthor">
+            By {{ post.data.author }} on {{ post.data.date | postDate }}
+          </h4>
+          <a class="article-link" href="{{ post.url }}">Contine Reading</a>
+          <img src="{{ post.data.image }}" alt="" class="img-preview" />
+        </div>
+      </article>
+      {%- endfor -%}
     </section>
   </body>
 </html>
