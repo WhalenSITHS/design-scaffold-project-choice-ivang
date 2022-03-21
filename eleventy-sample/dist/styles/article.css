@@ -7,6 +7,7 @@ list-style-type: none;
 
 body{
 background: #776885;
+font-family: 'Quicksand', sans-serif;
 }
 
 .container {
@@ -45,4 +46,9 @@ border-radius: .5rem;
 
 font-family: 'Work Sans', sans-serif;
 font-weight: 750;
+}
+
+.header-title {
+    font-size: 2rem;
+    padding: 2rem;
 }
