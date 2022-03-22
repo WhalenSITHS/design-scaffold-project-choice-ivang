@@ -52,3 +52,8 @@ font-weight: 750;
     font-size: 2rem;
     padding: 2rem;
 }
+
+.main-article {
+width: 80%;
+margin-left: 10%;
+}
