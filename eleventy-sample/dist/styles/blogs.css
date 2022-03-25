@@ -6,8 +6,8 @@ list-style-type: none;
 }
 
 :root{
-    --primary: #776885;
-    --secondary: #5F1A37;
+    --primary: #c1da86;
+    --secondary: #8d5789;
     --black: #000000;
     }
 
@@ -61,6 +61,7 @@ font-weight: 750;
 .article-title {
     font-size: 2.5rem;
     padding: .5rem;
+    color: var(--secondary);
 }
 
 .article-aurthor {

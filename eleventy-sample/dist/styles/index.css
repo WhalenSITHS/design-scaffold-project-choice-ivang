@@ -71,8 +71,6 @@ padding-left: 15%;
 font-family: 'Work Sans', sans-serif;
 font-weight: 400;
 font-size: 4rem;
-
-color: var(--secondary);
 }
 
 .header-desc {
@@ -83,6 +81,4 @@ padding-left: 15%;
 
 font-family: 'Work Sans', sans-serif;
 font-weight: 400;
-
-color: var(--secondary);
 }
