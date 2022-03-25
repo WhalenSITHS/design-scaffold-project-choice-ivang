@@ -1,5 +1,5 @@
 ---
-title: 1st Singles
+title: 1st Singles BEST PLAYER ALIVE
 author: Yi Hang Chen
 date: 2022-03-02
 image:
