@@ -1,8 +1,8 @@
 ---
-title: Yi Hang sucks
-author: Ivan Yim
+title: Rocket League is GOATED
+author: Yi Hang Chen
 date: 2022-03-02
-image:
+image: https://theme.zdassets.com/theme_assets/1094427/189dce017fb19e3ca1b94b2095d519cc514df22c.jpg
 imageAlt:
-description: these are random words that im just typing out to test the description
+description: low key underated game available on PC, ps4, and xbox. cars driving around you control and play soccer with. The basic controls of forward back left right, you can also drift to turn faster and a gas, brake, and boost. You get boost from orbs and pads that spawn around the map. The mechanics are unique and they are very fresh completely original. They have a ranked system and the game is not pay to win but if you are a long time player they have all sort of arrangements of car types and colors and hats. Its a slow progression of improvement where you can train in freeplay, it is where freestylers are often,they practice control and pulling off crazy moves and showing off camazing control of the ball. there is also training packs that people with more experience make. They range from simple basics to work your foundation, and stretch to pro level(the highest level). There is a large community and for the most part pretty wholesome. There is even map makers that make insane maps, such as minecraft in rocket league, escape rooms, mini games, and original concepts for rocket league. It has such a deep and complex level for such a simple game with tiny cars. There is a pro level scene for the game and it builds off from the skill level of all those that played the game from the beginning so of with are SquishyMuffins, Gimmick, Kaydop, and turbopulsa. There are also many notable awesome content creaters, lethamyr, Amustycow, SunlessKhan, and Mertzy. they now even have a mobile game and available on the nintendo switch. The game is amazing because of its deep complex game, nice graphics, tight knitted community, and amazing content.
 ---

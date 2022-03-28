@@ -4,17 +4,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/styles/article.css" />
   </head>
   <body>
-    {% include 'nav.njk' %}
-    <h1 class="header-title">
-      {{ title }}
-    </h1>
-    <article class="main-article">
-      <img src="{{ image }}" alt="{{ imageAlt }}" class="figure-image" />
-      {{ content | safe }}
-      <h4>{{ description }}</h4>
-    </article>
+    <section class="container">
+      <div class="nav nav-container">{% include 'nav.njk' %}</div>
+      <h1 class="header-title">
+        {{ title }}
+      </h1>
+      <article class="main-article">
+        <img src="{{ image }}" alt="{{ imageAlt }}" class="figure-image" />
+        {{ content | safe }}
+        <h4 class="description">{{ description }}</h4>
+      </article>
+    </section>
   </body>
 </html>
