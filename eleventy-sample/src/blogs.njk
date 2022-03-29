@@ -9,6 +9,11 @@
   <body>
     <section class="container">
       <div class="nav nav-container">{% include 'nav.njk' %}</div>
+      <div class="button-tab">
+        <h4>Sort by:</h4>
+        <button class="button newest">Newest</button>
+        <button class="button oldest">Oldest</button>
+      </div>
       <div class="collections">{%- for post in collections.post -%}</div>
       <article class="article">
         <div class="article-text">
@@ -18,10 +23,13 @@
           </h4>
           <img src="{{ post.data.image }}" alt="" class="img-preview" />
           <br />
-          <a class="article-link" href="{{ post.url }}">>>Continue Reading<<</a>
+          <a class="article-link hvr-grow" href="{{ post.url }}"
+            >>>Continue Reading<<</a
+          >
         </div>
       </article>
       {%- endfor -%}
     </section>
+    <script type="module" src="../src/js/blogs.js"></script>
   </body>
 </html>
