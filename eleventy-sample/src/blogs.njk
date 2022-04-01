@@ -9,12 +9,6 @@
   <body>
     <section class="container">
       <div class="nav nav-container">{% include 'nav.njk' %}</div>
-      <div class="button-tab">
-        <h4>Sort by:</h4>
-        <button class="button newest">Newest</button>
-        <button class="button oldest">Oldest</button>
-        <button class="button theme">theme</button>
-      </div>
       <div class="collections">{%- for post in collections.post -%}</div>
       <article class="article">
         <div class="article-text">
