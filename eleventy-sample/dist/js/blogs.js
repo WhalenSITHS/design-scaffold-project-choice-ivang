@@ -1,5 +1,8 @@
-let domselector = {
-  newest: document.querySelector(".newest"),
-  oldest: document.querySelector(".oldest"),
-};
-console.log("tets");
+import "../styles/blogs.css";
+import { domselector } from "../js/domselectors.js";
+
+domselector.newest.addEventListener("click", function () {
+  console.log("hello");
+});
+
+domselector.oldest.addEventListener("click", function () {});
