@@ -1,13 +1,13 @@
 backend:
   name: git-gateway
   branch: test
+  repo: owner-name/repo-name
 
 media_folder: "dist/media"
 public_folder: "/media"
- media_library:
-    name: uploads
+
 collections:
-    name: "blog"
+  - name: "blog"
     label: "Blog"
     folder: "src/md"
     create: true
