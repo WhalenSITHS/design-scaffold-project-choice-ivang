@@ -8,8 +8,6 @@ public_folder: "/media"
 
 publish_mode: editorial_workflow
 
-media_folder: "media/uploads"
-
 collections:
   - name: "blog"
     label: "Blog"
