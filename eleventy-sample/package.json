@@ -184,6 +184,7 @@
     "mustache": "^4.2.0",
     "negotiator": "^0.6.3",
     "neo-async": "^2.6.2",
+    "netlify-cms-app": "^2.15.70",
     "nopt": "^5.0.0",
     "normalize-path": "^3.0.0",
     "nunjucks": "^3.2.3",
