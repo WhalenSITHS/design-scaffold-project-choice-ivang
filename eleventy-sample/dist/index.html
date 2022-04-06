@@ -6,6 +6,7 @@
     <title>Yi Hang Sucks Ass</title>
     <link rel="stylesheet" href="/styles/index.css" />
   </head>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <body>
     <section class="container">
       <header class="header">
@@ -27,5 +28,16 @@
         <div class="header-image"></div>
       </header>
     </section>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
